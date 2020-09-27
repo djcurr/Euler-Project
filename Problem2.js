@@ -15,9 +15,9 @@ var store = 0;
 var total = 2;
 do {
     output = x + y;
-    store = y;
+    store = y; //store y to  set to x
     y = output;
-    x = store;
+    x = store; //set x = y
     if (output % 2 == 0) {
         total += output;
     }
