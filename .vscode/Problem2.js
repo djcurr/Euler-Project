@@ -22,4 +22,5 @@ do {
         total += output;
     }
 } while (output < 4000000);
+
 console.log(total);

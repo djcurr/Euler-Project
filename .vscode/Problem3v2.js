@@ -16,4 +16,5 @@ function highestPrimeNumber(num) {
      console.log(num);
 }
 
+
 highestPrimeNumber(600851475143);
