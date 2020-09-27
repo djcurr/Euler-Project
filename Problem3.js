@@ -45,5 +45,4 @@ function isHighestPrimeFactor(find) {
     highestValue(isPrime(factors(find)));
 }
 
-
 isHighestPrimeFactor(600851475143);
