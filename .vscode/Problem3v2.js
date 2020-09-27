@@ -5,7 +5,7 @@ What is the largest prime factor of the number 600851475143 ? */
 function highestPrimeNumber(num) {
     if (num % 2 == 0 && num / 2 != 1) {
         do {
-            num = num / 2;
+            num /= 2;
         } while (num % 2 == 0 && num / 2 != 1);
     }
         for (var i = 3; i < Math.sqrt(num); i++) {
@@ -14,7 +14,6 @@ function highestPrimeNumber(num) {
             }
         }   
      console.log(num);
-
 }
 
-highestPrimeNumber(8);
+highestPrimeNumber(600851475143);

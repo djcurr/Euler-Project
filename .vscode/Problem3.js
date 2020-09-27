@@ -46,4 +46,4 @@ function isHighestPrimeFactor(find) {
 }
 
 
-isHighestPrimeFactor(7);
+isHighestPrimeFactor(600851475143);
